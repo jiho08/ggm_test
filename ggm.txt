@@ -1,0 +1,8 @@
+아무말이나 여기다
+타이핑 해주세요.
+ctrl + s 누르기
+git init
+git status
+git add
+git commit
+git push
