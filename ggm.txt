@@ -10,3 +10,13 @@ git config --global user.name "jiho08"
 git config --global user.email "57872222k@gmail.com"
 git commit -m
 수정 > 저장 > add > commit > push
+A와 B가 함께 협업을 진행합니다.
+1. A는 컬라보레이터로 B를 초대해야 한다.
+Settings > collaborator 를 선택하고 상대 id 입력 후 초대해
+2. B는 email을 확인해서 초청을 수락하고 들어간다.
+3. B는 빈 폴더를 하나 만들어서 폴더 안에서 우클릭 후 Open Git bash here 선택한다.
+4. B 깃 배시 창에서 다음과 같이 입력한다.
+git clone "주소"
+5. B는 다운로드 받아진 폴더를 VS 코드에서 열고 파일을 하나 새로 만들고 내용은 아무거나 쓰고 저장한다.
+6. B는 해당 내용을 깃허브에 커밋 후 푸시한다.
+7. A는 B가 한 내용을 Pull 받는다. 3닷 메뉴 클릭하고 Pull을 클릭하면 된다.
